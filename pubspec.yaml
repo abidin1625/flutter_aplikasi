@@ -1,0 +1,61 @@
+name: aplikasi_pbo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_screenutil: ^5.9.3
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.2.1
+  provider: ^6.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # === Folder utama untuk gambar-gambar ===
+    - assets/images/
+    - assets/images/profile.png
+    - assets/images/coffe3.jpg
+    - assets/images/promo.jpg
+    - assets/images/fotoatas.jpg
+    - assets/images/fotoatas1.jpg
+    - assets/images/fotoatas2.jpg
+
+    
+    # === Folder ikon ===
+    - assets/icons/
+    - assets/icons/home.png
+    - assets/icons/plusicon.png
+    - assets/icons/searchicon1.png
+    - assets/icons/bag.png
+    - assets/icons/heart.png
+
+    #===folder kopi===
+    - assets/images/kapalapi.jpg
+    - assets/images/mocha.png
+    - assets/images/latte.png
+    - assets/images/espresso1.png
+    
+
+
+  fonts:
+    - family: KTF-Roadbrush
+      fonts:
+        - asset: assets/fonts/KTF-Roadbrush.ttf
+        - asset: assets/fonts/MTF-Chubb.ttf
+          weight: 700
